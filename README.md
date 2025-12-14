@@ -104,7 +104,8 @@ python3 scripts/plot_pingpong_bar.py \
 ## NetAnim Visualization
 
 ```bash
-NetAnim results/handover_demo.xml
+cd netamin-3.109
+./NetAnim results/handover_demo.xml
 ```
 
 ## Notes
