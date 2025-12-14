@@ -1,0 +1,118 @@
+# NS-3 Build Artifacts
+build/
+cmake-cache/
+*.o
+*.a
+*.dylib
+*.so
+*.dll
+*.exe
+compile_commands.json
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+!CMakeLists.txt
+ns3
+*.ninja
+
+# NS-3 Results and Output Files
+results/
+*.xml
+*.csv
+*.txt
+!README.txt
+!CMakeLists.txt
+old_runs/
+plots/
+*.png
+*.pdf
+*.pdf
+*.gnuplot
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Bake (NS-3 build system)
+bake/
+build.py
+constants.py
+util.py
+
+# NetAnim (third-party, don't commit)
+netanim-3.109/
+*.pro.user
+*.qmake.stash
+*.qm
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# NS-3 Source Code (third-party dependency - don't commit)
+# Ignore everything in ns-3.39 except what we explicitly include
+ns-3.39/*
+!ns-3.39/DEMO_INSTRUCTIONS.md
+!ns-3.39/scratch/
+ns-3.39/scratch/*
+!ns-3.39/scratch/a3_netanim_demo.cc
+!ns-3.39/scratch/a3_hex_21cells_control_only.cc
+!ns-3.39/scratch/a3_paper_21cells.cc
+!ns-3.39/scratch/v2i_handover.cc
+!ns-3.39/scratch/v2i_a3_sweep.cc
+!ns-3.39/scratch/generate_graphs.py
+!ns-3.39/scratch/run_multiple_for_graph.sh
+!ns-3.39/scratch/run_paper_sweep.sh
+!ns-3.39/scratch/CMakeLists.txt
+# Exclude example scratch files
+ns-3.39/scratch/anim-demo.cc
+ns-3.39/scratch/scratch-simulator.cc
+ns-3.39/scratch/nested-subdir/
+ns-3.39/scratch/subdir/
+ns-3.39/README.md
+ns-3.39/utils/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+*.out
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Keep only relevant scratch files
+# We'll explicitly include what we need
+
