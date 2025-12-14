@@ -61,18 +61,19 @@ constants.py
 util.py
 
 # NetAnim (third-party, don't commit)
-netanim-3.109/
-*.pro.user
-*.qmake.stash
-*.qm
-moc_*.cpp
-moc_*.h
-qrc_*.cpp
-ui_*.h
+# netanim-3.109/
+# *.pro.user
+# *.qmake.stash
+# *.qm
+# moc_*.cpp
+# moc_*.h
+# qrc_*.cpp
+# ui_*.h
 
 # NS-3 Source Code (third-party dependency - don't commit)
 # Ignore everything in ns-3.39 except what we explicitly include
 ns-3.39/*
+!ns-3.39/src/lte/model/fading-traces/fading_trace_ETU_3kmph.fad
 !ns-3.39/DEMO_INSTRUCTIONS.md
 !ns-3.39/scratch/
 ns-3.39/scratch/*
