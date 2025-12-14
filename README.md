@@ -100,22 +100,6 @@ python3 scripts/plot_pingpong_bar.py \
   --out plots/pingpong_rate.png
 ```
 
-### Throughput timeseries
-
-```bash
-python3 scripts/plot_timeseries.py \
-  --csv results/handover_timeseries.csv \
-  --out plots/handover_timeseries.png
-```
-
-### Flow metrics (loss, delay, jitter)
-
-```bash
-python3 scripts/plot_flow_metrics.py \
-  --xml results/handover_flow.xml \
-  --out-prefix plots/handover
-```
-
 ## NetAnim Visualization
 
 ```bash
