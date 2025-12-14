@@ -34,7 +34,7 @@ static bool     kDemo         = false;    // Use paper's random movement
 static bool     kNoAnim       = false;    // Enable NetAnim for visualization
 static double   kPingPongWinS = 2.0;
 static std::ofstream g_csv;
-static double g_sampleInterval = 1.1;
+static double g_sampleInterval = 0.8;
 static Ptr<Application> g_udpServerApp;
 static double g_clientPps = 100.0;  // packets per second
 static std::ofstream g_hoEvents;
