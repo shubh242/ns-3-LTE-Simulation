@@ -51,6 +51,7 @@ cd ns-3.39
 ### Step 2: Build the custom simulation
 
 ```bash
+./ns3 configure
 ./ns3 build
 ```
 
